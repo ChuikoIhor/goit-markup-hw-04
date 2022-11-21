@@ -1,5 +1,6 @@
 /* main */
 /* hero */
+
 .hero {
   background-color: #2f303a;
   text-align: center;
@@ -63,6 +64,15 @@
 }
 
 /* peculiarities */
+
+.peculiarities-icon {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
 
 .peculiarities {
   display: flex;
@@ -152,7 +162,7 @@
 
 .our-team-title-text {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
 }
 .our-team-sub-title {
   font-size: 16px;
@@ -169,4 +179,68 @@
   line-height: 1.18;
   text-align: Center;
   letter-spacing: 0.03em;
+}
+
+.our-team-social-links-list {
+  display: flex;
+}
+
+.our-team-social-links-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 30px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+}
+
+/*clients*/
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 30px;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-item:last-child {
+  margin-right: 0px;
+}
+
+.clients-title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.clients-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: var(--accent-color);
+}
+
+.clients-item:hover,
+.clients-item:focus {
+  border-color: var(--accent-color);
 }
