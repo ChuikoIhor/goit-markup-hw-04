@@ -161,9 +161,13 @@ img {
   align-items: center;
 }
 
+.footer-container-address {
+  margin-right: 93px;
+}
+
 .footer-container {
   display: flex;
-  flex-direction: column;
+  align-items: baseline;
 }
 
 .footer .logo {
