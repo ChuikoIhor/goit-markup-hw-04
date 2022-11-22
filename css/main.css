@@ -260,6 +260,7 @@
 .clients-links:hover,
 .clients-links:focus {
   border-color: var(--accent-color);
+  outline: transparent;
 }
 
 .clients-links:hover .clients-icon,
