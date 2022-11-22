@@ -127,7 +127,7 @@ img {
   margin-right: 10px;
   width: 16px;
   height: 12px;
-  fill: var(--p-text-color);
+  fill: currentColor;
 }
 
 .icon-header-mail:hover,
@@ -139,7 +139,7 @@ img {
   margin-right: 10px;
   width: 10px;
   height: 16px;
-  fill: var(--p-text-color);
+  fill: currentColor;
 }
 
 .icon-header-smartphone:hover,
