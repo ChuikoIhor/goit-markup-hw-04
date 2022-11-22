@@ -200,6 +200,10 @@
   height: 44px;
 }
 
+.our-team-social-links-item:last-child {
+  margin-right: 0;
+}
+
 .our-team-social-links-icon {
   fill: #afb1b8;
 }
