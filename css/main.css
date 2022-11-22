@@ -183,6 +183,10 @@
 
 .our-team-social-links-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 30px;
 }
 
 .our-team-social-links-item {
@@ -190,11 +194,25 @@
   justify-content: center;
   align-items: center;
 
-  padding-bottom: 30px;
   margin-right: 10px;
   background-color: rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
+}
+
+.our-team-social-links-icon {
+  fill: #afb1b8;
+}
+
+.our-team-social-links-item:hover,
+.our-team-social-links-item:focus {
+  border-radius: 50%;
+  background-color: var(--accent-color);
+}
+
+.our-team-social-links-icon:hover,
+.our-team-social-links-icon:focus {
+  fill: var(--primary-white-color);
 }
 
 /*clients*/
