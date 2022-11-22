@@ -130,21 +130,11 @@ img {
   fill: currentColor;
 }
 
-.icon-header-mail:hover,
-.icon-header-mail:focus {
-  fill: var(--accent-color);
-}
-
 .icon-header-smartphone {
   margin-right: 10px;
   width: 10px;
   height: 16px;
   fill: currentColor;
-}
-
-.icon-header-smartphone:hover,
-.icon-header-smartphone:focus {
-  fill: var(--accent-color);
 }
 
 .contacts-link:hover,
